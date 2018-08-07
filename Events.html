@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,31 +8,32 @@
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Oswald" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="events.css">
-
     <style>
         .nav-wrapper{
             background-color:#888b91;
-
-
         }
         #brand1{
             margin-left: 2vw;
-
         }
         .container{
             width:85%;
         }
         h1{
             font-family:Oswald;
-            font-weight:bold;
+            font-weight:500;
             font-size:7vw;
-
         }
         h3{
-          font-family: Comfortaa;
+            font-family:Comfortaa ;
+
+        }
+        .Jumbotron{
+            background-color:rgba(0,0,0,0.1);
         }
 
-
+        .dropchoose-on{
+            background-color: teal;
+        }
 
 
     </style>
@@ -49,7 +51,7 @@
 
     <nav class="nav transparent">
         <div class="nav-wrapper">
-            <a href="#!" class="brand-logo" id="brand1"><img src="img/Hackathon Logo_FINAL-03.png" height="40px" width="100px"></a>
+            <a href="#!" class="brand-logo" id="brand1"><img class="img" src="img/Hackathon Logo_FINAL-03.png" height="40px" width="100px"></a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="index.html">HOME</a></li>
                 <!-- Dropdown Trigger -->
@@ -67,6 +69,96 @@
         <h1>EVENTS</h1>
         <h3>Find more about our upcoming events.</h3>
 
+        <div class="Jumbotron">
+            <div class="section">
+                <h1 style="font-size:5vw;margin-left:5%">August<img class="img" src="img/Arrow.png" style="top:150px" height="100px" width="100px"></h1>
+                <div class="dropchoose-off">
+                    <div class="carousel carousel-slider center">
+                        <div class="carousel-fixed-item center">
+                            <a class="btn waves-effect white grey-text darken-text-2">button</a>
+                        </div>
+                        <div class="carousel-item red white-text" href="#one!">
+                            <h2>First Panel</h2>
+                            <p class="white-text">This is your first panel</p>
+                        </div>
+                        <div class="carousel-item amber white-text" href="#two!">
+                            <h2>Second Panel</h2>
+                            <p class="white-text">This is your second panel</p>
+                        </div>
+                        <div class="carousel-item green white-text" href="#three!">
+                            <h2>Third Panel</h2>
+                            <p class="white-text">This is your third panel</p>
+                        </div>
+                        <div class="carousel-item blue white-text" href="#four!">
+                            <h2>Fourth Panel</h2>
+                            <p class="white-text">This is your fourth panel</p>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                </div>
+            </div>
+            <hr width="90%">
+
+            <div class="section">
+                <h1 style="font-size:5vw;margin-left:5%">September<img class="img" src="img/Arrow.png" style="top:150px" height="100px" width="100px"></h1>
+
+                <div class="dropchoose-off">
+                    <div class="carousel carousel-slider center">
+                        <div class="carousel-fixed-item center">
+                            <a class="btn waves-effect white grey-text darken-text-2">button</a>
+                        </div>
+                        <div class="carousel-item red white-text" href="#one!">
+                            <h2>First Panel</h2>
+                            <p class="white-text">This is your first panel</p>
+                        </div>
+                        <div class="carousel-item amber white-text" href="#two!">
+                            <h2>Second Panel</h2>
+                            <p class="white-text">This is your second panel</p>
+                        </div>
+                        <div class="carousel-item green white-text" href="#three!">
+                            <h2>Third Panel</h2>
+                            <p class="white-text">This is your third panel</p>
+                        </div>
+                        <div class="carousel-item blue white-text" href="#four!">
+                            <h2>Fourth Panel</h2>
+                            <p class="white-text">This is your fourth panel</p>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                </div>
+            </div>
+            <hr width="90%">
+
+            <div class="section">
+                <h1 style="font-size:5vw;margin-left:5%">October<img src="img/Arrow.png" style="top:150px" height="100px" width="100px"></h1>
+
+                <div class="dropchoose-off">
+                    <div class="carousel carousel-slider center">
+                        <div class="carousel-fixed-item center">
+                            <a class="btn waves-effect white grey-text darken-text-2">button</a>
+                        </div>
+                        <div class="carousel-item red white-text" href="#one!">
+                            <h2>First Panel</h2>
+                            <p class="white-text">This is your first panel</p>
+                        </div>
+                        <div class="carousel-item amber white-text" href="#two!">
+                            <h2>Second Panel</h2>
+                            <p class="white-text">This is your second panel</p>
+                        </div>
+                        <div class="carousel-item green white-text" href="#three!">
+                            <h2>Third Panel</h2>
+                            <p class="white-text">This is your third panel</p>
+                        </div>
+                        <div class="carousel-item blue white-text" href="#four!">
+                            <h2>Fourth Panel</h2>
+                            <p class="white-text">This is your fourth panel</p>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                </div>
+            </div>
+
+        </div>
     </div>
 
 
@@ -75,10 +167,23 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <script>
+        $(document).ready(function(){
+            $(".dropchoose-off").hide();
 
-        $(".dropdown-trigger").dropdown({
-            coverTrigger:false,
-            hover : true
+            $(".dropdown-trigger").dropdown({
+                coverTrigger:false,
+                hover : true
+            });
+            $('.carousel.carousel-slider').carousel({
+                indicators: true
+            });
+            $('.section').click(function(){
+                var drop = $('dropchoose-off');
+                $(this).find(drop).show();
+                $(this).toggleClass('dropchoose-on');
+            })
+
+
         });
 
     </script>
