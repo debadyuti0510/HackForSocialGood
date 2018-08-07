@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Events</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        .nav-wrapper{
+            background-color:#888b91;
+        }
+        #brand1{
+            margin-left: 2vw;
+        }
+        .container{
+            width:85%;
+        }
+        h1{
+            font-family:Oswald;
+            font-weight:500;
+            font-size:7vw;
+        }
+        h3{
+            font-family:Comfortaa ;
+
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!">ABOUT US</a></li>
+        <li><a href="#!">ALLIANCES</a></li>
+    </ul>
+    <ul id="dropdown2" class="dropdown-content">
+        <li><a href="#!">HOW IT WORKS</a></li>
+        <li><a href="#!">CHALLENGES</a></li>
+    </ul>
+
+    <nav class="nav transparent">
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo" id="brand1"><img src="img/Hackathon Logo_FINAL-03.png" height="40px" width="100px"></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">HOME</a></li>
+                <!-- Dropdown Trigger -->
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">ABOUT<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown2">HACKATHON<i class="material-icons right">arrow_drop_down</i></a></li>
+
+                <li><a href="calender.html">CALENDER</a></li>
+                <li><a href="#!" class="brand-logo" id="brand1"> height="40px" width="100px"></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>EVENTS</h1>
+        <h3>Find more about our upcoming events.</h3>
+
+    </div>
+
+
+    <!-- Scripts -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script>
+
+        $(".dropdown-trigger").dropdown({
+            coverTrigger:false,
+            hover : true
+        });
+
+    </script>
+</body>
+</html>
